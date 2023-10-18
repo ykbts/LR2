@@ -1,0 +1,107 @@
+div.phone {
+    position: relative;
+    border-radius: 25px;
+    background: #9EE0B1;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 150px;
+    height: 300px;
+}
+
+div.screen {
+    position: absolute;
+    border-radius: 25px;
+    background: white;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    font-size: 40px; 
+    color: #292727; 
+    font-family: 'Arial';
+}
+
+div.button-container {
+    position: absolute;
+    padding: 20px;
+    top: 45%;
+    width: 100px;
+    height: 100px;
+}
+
+div.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.button {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 20px;
+    height: 15px;
+    background: #292727;
+    border-radius: 50%;
+    margin: 5px; ;
+}
+
+div.phone2 {
+    border-radius: 25px;
+    background: #9EE0B1;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 150px;
+    height: 300px;
+    transform: rotate(180);
+}
+
+div.screen2 {
+    border-radius: 25px;
+    background: white;
+    border: 1px solid #000;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    font-size: 40px; 
+    color: #292727; 
+    font-family: 'Arial';
+    margin: auto;
+    
+}
+
+div.button-container2 {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+div.button-row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.button2 {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 20px;
+    height: 15px;
+    background: #292727;
+    border-radius: 50%;
+    margin: 5px;
+}
+.phone, .phone2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
